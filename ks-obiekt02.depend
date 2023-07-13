@@ -1,0 +1,80 @@
+# depslib dependency file v1.0
+1689177243 source:c:\users\lulas\desktop\cpp\ks-strukt\ks-obiekt02\main.cpp
+	<iostream>
+	"KsiazkaAdresowa.h"
+
+1689179423 source:c:\users\lulas\desktop\cpp\ks-strukt\ks-obiekt02\ksiazkaadresowa.cpp
+	"KsiazkaAdresowa.h"
+
+1689174539 source:c:\users\lulas\desktop\cpp\ks-strukt\ks-obiekt02\uzytkownik.cpp
+	"Uzytkownik.h"
+
+1689179423 c:\users\lulas\desktop\cpp\ks-strukt\ks-obiekt02\ksiazkaadresowa.h
+	<iostream>
+	"UzytkownikMenedzer.h"
+	"AdresatMenedzer.h"
+
+1689190977 c:\users\lulas\desktop\cpp\ks-strukt\ks-obiekt02\uzytkownik.h
+	<iostream>
+
+1689175644 source:c:\users\lulas\desktop\cpp\ks-strukt\ks-obiekt02\metodypomocnicze.cpp
+	"MetodyPomocnicze.h"
+
+1689175642 c:\users\lulas\desktop\cpp\ks-strukt\ks-obiekt02\metodypomocnicze.h
+	<iostream>
+	<sstream>
+	<algorithm>
+
+1689194401 c:\users\lulas\desktop\cpp\ks-strukt\ks-obiekt02\uzytkownikmenedzer.h
+	<iostream>
+	<vector>
+	<windows.h>
+	<fstream>
+	<sstream>
+	"Uzytkownik.h"
+	"PlikZUzytkownikami.h"
+
+1689194401 c:\users\lulas\desktop\cpp\ks-strukt\ks-obiekt02\plikzuzytkownikami.h
+	<iostream>
+	<vector>
+	<fstream>
+	<cstdlib>
+	"Uzytkownik.h"
+	"MetodyPomocnicze.h"
+
+1689178675 source:c:\users\lulas\desktop\cpp\ks-strukt\ks-obiekt02\plikzuzytkownikami.cpp
+	"PlikZUzytkownikami.h"
+
+1689179357 source:c:\users\lulas\desktop\cpp\ks-strukt\ks-obiekt02\uzytkownikmenedzer.cpp
+	"UzytkownikMenedzer.h"
+
+1689194491 c:\users\lulas\desktop\cpp\ks-strukt\ks-obiekt02\adresatmenedzer.h
+	<iostream>
+	<vector>
+	<windows.h>
+	<fstream>
+	<sstream>
+	"Adresat.h"
+	"PlikZAdresatami.h"
+
+1689175994 c:\users\lulas\desktop\cpp\ks-strukt\ks-obiekt02\adresat.h
+	<iostream>
+	"UzytkownikMenedzer.h"
+
+1689194104 c:\users\lulas\desktop\cpp\ks-strukt\ks-obiekt02\plikzadresatami.h
+	<iostream>
+	<vector>
+	<fstream>
+	<cstdlib>
+	"Adresat.h"
+	"MetodyPomocnicze.h"
+
+1689175994 source:c:\users\lulas\desktop\cpp\ks-strukt\ks-obiekt02\adresat.cpp
+	"Adresat.h"
+
+1689192625 source:c:\users\lulas\desktop\cpp\ks-strukt\ks-obiekt02\adresatmenedzer.cpp
+	"AdresatMenedzer.h"
+
+1689177642 source:c:\users\lulas\desktop\cpp\ks-strukt\ks-obiekt02\plikzadresatami.cpp
+	"PlikZAdresatami.h"
+
