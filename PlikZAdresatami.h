@@ -8,15 +8,14 @@
 
 #include "Adresat.h"
 #include "MetodyPomocnicze.h"
+#include "PlikTekstowy.h"
 
-using namespace std;
 
-class PlikZAdresatami
+class PlikZAdresatami : public PlikTekstowy
 {
     const string NAZWA_PLIKU_Z_ADRESATAMI;
     int idOstatniegoAdresata;
 
-    bool czyPlikJestPusty(fstream &plikTekstowy);
     string zamienDaneAdresataNaLinieZDanymiOddzielonymiPionowymiKreskami(Adresat adresat);
 
     string pobierzLiczbe(string tekst, int pozycjaZnaku);
@@ -38,5 +37,7 @@ public:
     bool dopiszAdresataDoPliku (Adresat adresat);
     int pobierzIdOstatniegoAdresata();
     void wczytajIdOstatniegoAdresata(int Id);
+    void usunAdresataZPliku(int idAdresata);
+    void edytujAdresataWPliku(Adresat adresat);
 };
 #endif

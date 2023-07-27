@@ -10,8 +10,6 @@
 #include "Adresat.h"
 #include "PlikZAdresatami.h"
 
-using namespace std;
-
 class AdresatMenedzer
 {
     PlikZAdresatami plikZAdresatami;
@@ -32,6 +30,14 @@ public:
 
     void dodajAdresata();
     void wyswietlWszystkichAdresatow();
+    void wyszukajAdresatowPoImieniu();
+    void wyswietlIloscWyszukanychAdresatow(int iloscAdresatow);
+    void wyszukajAdresatowPoNazwisku();
+    int usunAdresata();
+    int podajIdWybranegoAdresata();
+    void edytujAdresata();
+    char wybierzOpcjeZMenuEdycja();
+    void zaktualizujDaneEdytowanegoAdresata(Adresat adresat);
 };
 
 #endif

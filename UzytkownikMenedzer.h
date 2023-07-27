@@ -10,7 +10,6 @@
 #include "Uzytkownik.h"
 #include "PlikZUzytkownikami.h"
 
-using namespace std;
 
 class UzytkownikMenedzer
 {
@@ -26,11 +25,7 @@ class UzytkownikMenedzer
 
 public:
 
-    UzytkownikMenedzer(string nazwaPlikuZUzytkownikami):plikZUzytkownikami(nazwaPlikuZUzytkownikami)
-    {
-        idZalogowanegoUzytkownika = 0;
-        uzytkownicy = plikZUzytkownikami.wczytajUzytkownikowZPliku();
-    };
+    UzytkownikMenedzer(string nazwaPlikuZUzytkownikami);
 
     void rejestracjaUzytkownika();
     void logowanieUzytkownika();
