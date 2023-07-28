@@ -2,13 +2,10 @@
 #define PLIKTEKSTOWY_H
 
 #include <iostream>
-#include <vector>
 #include <fstream>
 #include <cstdlib>
 
-#include "MetodyPomocnicze.h"
-#include "Adresat.h"
-
+using namespace std;
 
 class PlikTekstowy
 {
@@ -17,5 +14,9 @@ class PlikTekstowy
 protected:
     fstream plikTekstowy;
     bool czyPlikJestPusty(fstream &plikTekstowy);
+    string pobierzNazwePliku();
+
+public:
+    PlikTekstowy(string nazwaPliku) : NAZWA_PLIKU(nazwaPliku) {};
 };
 #endif

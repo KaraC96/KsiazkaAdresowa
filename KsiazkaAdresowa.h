@@ -3,7 +3,6 @@
 #include "UzytkownikMenedzer.h"
 #include "AdresatMenedzer.h"
 
-
 class KsiazkaAdresowa
 {
     UzytkownikMenedzer uzytkownikMenedzer;

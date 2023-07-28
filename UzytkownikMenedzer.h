@@ -10,7 +10,6 @@
 #include "Uzytkownik.h"
 #include "PlikZUzytkownikami.h"
 
-
 class UzytkownikMenedzer
 {
     int idZalogowanegoUzytkownika;
@@ -22,10 +21,13 @@ class UzytkownikMenedzer
     bool czyIstniejeLogin(string login);
     int pobierzIdNowegoUzytkownika();
 
-
 public:
 
-    UzytkownikMenedzer(string nazwaPlikuZUzytkownikami);
+    UzytkownikMenedzer(string nazwaPlikuZUzytkownikami) : plikZUzytkownikami(nazwaPlikuZUzytkownikami)
+    {
+        idZalogowanegoUzytkownika = 0;
+        uzytkownicy = plikZUzytkownikami.wczytajUzytkownikowZPliku();
+    };
 
     void rejestracjaUzytkownika();
     void logowanieUzytkownika();

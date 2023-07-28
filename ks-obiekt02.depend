@@ -9,7 +9,7 @@
 1689174539 source:c:\users\lulas\desktop\cpp\ks-strukt\ks-obiekt02\uzytkownik.cpp
 	"Uzytkownik.h"
 
-1690474627 c:\users\lulas\desktop\cpp\ks-strukt\ks-obiekt02\ksiazkaadresowa.h
+1690532127 c:\users\lulas\desktop\cpp\ks-strukt\ks-obiekt02\ksiazkaadresowa.h
 	<iostream>
 	"UzytkownikMenedzer.h"
 	"AdresatMenedzer.h"
@@ -25,7 +25,7 @@
 	<sstream>
 	<algorithm>
 
-1690474767 c:\users\lulas\desktop\cpp\ks-strukt\ks-obiekt02\uzytkownikmenedzer.h
+1690533401 c:\users\lulas\desktop\cpp\ks-strukt\ks-obiekt02\uzytkownikmenedzer.h
 	<iostream>
 	<vector>
 	<windows.h>
@@ -34,7 +34,7 @@
 	"Uzytkownik.h"
 	"PlikZUzytkownikami.h"
 
-1690474627 c:\users\lulas\desktop\cpp\ks-strukt\ks-obiekt02\plikzuzytkownikami.h
+1690532848 c:\users\lulas\desktop\cpp\ks-strukt\ks-obiekt02\plikzuzytkownikami.h
 	<iostream>
 	<vector>
 	<fstream>
@@ -43,10 +43,10 @@
 	"MetodyPomocnicze.h"
 	"PlikTekstowy.h"
 
-1690214035 source:c:\users\lulas\desktop\cpp\ks-strukt\ks-obiekt02\plikzuzytkownikami.cpp
+1690532607 source:c:\users\lulas\desktop\cpp\ks-strukt\ks-obiekt02\plikzuzytkownikami.cpp
 	"PlikZUzytkownikami.h"
 
-1690471663 source:c:\users\lulas\desktop\cpp\ks-strukt\ks-obiekt02\uzytkownikmenedzer.cpp
+1690532950 source:c:\users\lulas\desktop\cpp\ks-strukt\ks-obiekt02\uzytkownikmenedzer.cpp
 	"UzytkownikMenedzer.h"
 
 1690474627 c:\users\lulas\desktop\cpp\ks-strukt\ks-obiekt02\adresatmenedzer.h
@@ -58,11 +58,10 @@
 	"Adresat.h"
 	"PlikZAdresatami.h"
 
-1690213531 c:\users\lulas\desktop\cpp\ks-strukt\ks-obiekt02\adresat.h
+1690532127 c:\users\lulas\desktop\cpp\ks-strukt\ks-obiekt02\adresat.h
 	<iostream>
-	"UzytkownikMenedzer.h"
 
-1690474627 c:\users\lulas\desktop\cpp\ks-strukt\ks-obiekt02\plikzadresatami.h
+1690532848 c:\users\lulas\desktop\cpp\ks-strukt\ks-obiekt02\plikzadresatami.h
 	<iostream>
 	<vector>
 	<fstream>
@@ -77,17 +76,14 @@
 1690469688 source:c:\users\lulas\desktop\cpp\ks-strukt\ks-obiekt02\adresatmenedzer.cpp
 	"AdresatMenedzer.h"
 
-1690471039 source:c:\users\lulas\desktop\cpp\ks-strukt\ks-obiekt02\plikzadresatami.cpp
+1690532870 source:c:\users\lulas\desktop\cpp\ks-strukt\ks-obiekt02\plikzadresatami.cpp
 	"PlikZAdresatami.h"
 
-1690474627 c:\users\lulas\desktop\cpp\ks-strukt\ks-obiekt02\pliktekstowy.h
+1690532848 c:\users\lulas\desktop\cpp\ks-strukt\ks-obiekt02\pliktekstowy.h
 	<iostream>
-	<vector>
 	<fstream>
 	<cstdlib>
-	"MetodyPomocnicze.h"
-	"Adresat.h"
 
-1690471471 source:c:\users\lulas\desktop\cpp\ks-strukt\ks-obiekt02\pliktekstowy.cpp
+1690532049 source:c:\users\lulas\desktop\cpp\ks-strukt\ks-obiekt02\pliktekstowy.cpp
 	"PlikTekstowy.h"
 
